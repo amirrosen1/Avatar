@@ -1,0 +1,29 @@
+# 2D Game Engine
+
+## Overview
+This project is a comprehensive 2D game engine developed in Java, designed to facilitate the creation of
+ immersive and interactive game environments. It includes modules for terrain generation, sky rendering,
+  and customizable avatars.
+
+## Features
+- **Terrain Generation**: Dynamic and procedural terrain creation using `NoiseGenerator.java`.
+- **Sky Effects**: Realistic sky rendering with `Sky.java` and `SunHalo.java`.
+- **Avatar Customization**: Flexible avatar system with energy display management.
+- **Color Management**: Custom color handling through `ColorSupplier.java`.
+
+## Components
+- **`ColorSupplier.java`**: Manages and supplies colors for various game elements.
+- **`NoiseGenerator.java`**: Generates noise for terrain and other procedural elements.
+- **`PepseGameManager.java`**: Oversees the overall game management and state.
+- **`Avatar.java`**: Defines player avatars with various customizable attributes.
+- **`AvatarEnergyDisplay.java`**: Manages the display of avatar energy levels.
+- **`Block.java`**: Represents the basic building block of the game world.
+- **`Sky.java`**: Handles the rendering and behavior of the sky.
+- **`Terrain.java`**: Manages terrain generation and rendering.
+- **`Flora.java`**: Adds plant life and vegetation to the game environment.
+- **`SunHalo.java`**: Simulates the halo effect around the sun.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/2D-Game-Engine.git
